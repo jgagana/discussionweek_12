@@ -66,7 +66,9 @@ firstNameInput.addEventListener{'input', function () {
 letcolorPicker = document.getElementById('color-picker');
 colorPcicker.addEventListener('input', function (event)) {
     let selectedColor = event.target.value;
-}
+    document.body.style.backgroundColor = selectedColor;
+
+};
 
 
 
